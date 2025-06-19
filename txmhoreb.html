@@ -208,7 +208,7 @@
     let questions = [];
 
     // Tải câu hỏi từ JSON
-    fetch('txmhoreb.json')
+    fetch('./data/txmhoreb.json')
       .then(response => {
         if (!response.ok) {
           if (response.status === 404) {
